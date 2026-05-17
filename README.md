@@ -41,7 +41,7 @@ PDF 合約 → 文件解析 → 文本切塊 → 向量化 → ChromaDB
 
 ---
 
-## 📂 專案結構
+##  專案結構
 
 ```
 ai_travel_insurance/
