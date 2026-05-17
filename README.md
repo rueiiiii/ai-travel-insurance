@@ -1,5 +1,4 @@
-# ai-travel-insurance
-AI 旅平險專員
+# AI 旅平險專員
 
 一套以 RAG (Retrieval-Augmented Generation)技術建立的旅遊平安險諮詢系統，  
 讓使用者在投保前能快速了解保單內容，並附上明確條款引用來源。
