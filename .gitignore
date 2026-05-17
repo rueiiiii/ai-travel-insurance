@@ -1,0 +1,20 @@
+# 環境
+.env
+venv/
+__pycache__/
+*.pyc
+
+# 向量資料庫
+chroma_db/
+
+# 評估結果 (執行後產生)
+evaluation/evaluation_results.csv
+evaluation/comparison_report.md
+
+# 系統檔案
+.DS_Store
+.idea/
+.vscode/
+
+# 保險 PDF (有版權)
+data/*.pdf
