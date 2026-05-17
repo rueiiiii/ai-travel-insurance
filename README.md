@@ -45,7 +45,6 @@ PDF 合約 → 文件解析 → 文本切塊 → 向量化 → ChromaDB
 
 ```
 ai_travel_insurance/
-├── README.md
 ├── requirements.txt
 ├── .env.example         # 設定 API Key
 ├── main.py              # 主入口
