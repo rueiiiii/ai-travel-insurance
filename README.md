@@ -41,6 +41,36 @@ PDF 合約 → 文件解析 → 文本切塊 → 向量化 → ChromaDB
 
 ---
 
+## 實作
+
+### 1. 安裝套件
+```bash
+pip install -r requirements.txt
+```
+
+### 2. 設定 API Key
+複製 `.env.example` 為 `.env`，填入你的 Gemini API Key：
+```
+GOOGLE_API_KEY=你的金鑰
+EMBEDDING_TYPE=huggingface
+LLM_TYPE=gemini
+```
+
+### 3. 放入旅平險 PDF
+將保險合約 PDF 放進 `data/` 資料夾。
+
+### 4. 建立向量資料庫
+```bash
+python main.py build
+```
+
+### 5. 啟動聊天介面
+```bash
+python chat_cli.py
+```
+
+---
+
 ##  專案結構
 
 ```
