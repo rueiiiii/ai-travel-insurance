@@ -85,8 +85,7 @@ ai_travel_insurance/
 ├── src/
 │   ├── document_processor.py   # PDF 解析 + 切塊
 │   ├── vector_store.py         # 向量資料庫管理
-│   ├── rag_chain.py            # RAG 問答鏈
-│   └── app.py                  # Gradio Web UI
+│   ├── rag_chain.py            # RAG 問答鏈                  
 │
 └── evaluation/
     └── evaluate.py             # 評估腳本
